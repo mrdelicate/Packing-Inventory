@@ -10,8 +10,10 @@ namespace Packing_Inventory.InventoryItems
     {
         public Rope()
         {
-            Name = "Rope";
-
+            Name      = "A Rope";
+            LowerName = "a rope";
+            Weight    = 1f;
+            Volume    = 0.5f;
         }
     }
 }

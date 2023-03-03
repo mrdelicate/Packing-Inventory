@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Packing_Inventory.Packs
 {
-    internal class AdventurerPack
+    internal class AdventurerPack : Container
     {
+        public AdventurerPack()
+        {
+            Name      = "An Adventure's Pack";
+            LowerName = "an adventurer's pack";
+            MaxItems  = 4;
+            MaxVolume = 10;
+            MaxWeight = 8;
+        }
     }
 }

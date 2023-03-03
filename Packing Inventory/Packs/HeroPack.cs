@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Packing_Inventory.Packs
 {
-    internal class HeroPack
+    internal class HeroPack : Container
     {
+        public HeroPack()
+        {
+            Name      = "A Hero's Pack";
+            LowerName = "a hero's pack";
+            MaxItems  = 6;
+            MaxVolume = 14;
+            MaxWeight = 11;
+        }
     }
 }

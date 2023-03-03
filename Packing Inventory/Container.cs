@@ -6,15 +6,17 @@ using System.Threading.Tasks;
 
 namespace Packing_Inventory
 {
-    internal class Container
+    public class Container
     {
+        public string Name { get; set; }
+        public string LowerName { get; set; }
         public int MaxItems { get; set; }
         public int CurrentItems { get; set; }
         public float MaxWeight { get; set; }
         public float CurrentWeight { get; set; }
         public float MaxVolume { get; set; }
         public float CurrentVolume { get; set; }
-        public ContainerStatus Status { get; set; }
+        public ContainerStatus Status { get; set; } 
 
         public List<InventoryItem> Items { get; set; }
 
@@ -33,7 +35,9 @@ namespace Packing_Inventory
             if (CurrentItems == MaxItems || CurrentWeight == MaxWeight || CurrentVolume == MaxVolume)
                 Status = ContainerStatus.Full;
         }
-        
+        public enum ContainerStatus { Available, Full }
     }
-    enum ContainerStatus { Available, Full }
+
 }
+
+

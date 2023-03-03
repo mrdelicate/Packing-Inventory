@@ -10,9 +10,10 @@ namespace Packing_Inventory.InventoryItems
     {
         public Bow() 
         {
-            Name = "Bow";
-            Weight = 1f;
-            Volume = 4f;
+            Name      = "A Bow";
+            LowerName = "a bow";
+            Weight    = 1f;
+            Volume    = 4f;
         }
     }
 }

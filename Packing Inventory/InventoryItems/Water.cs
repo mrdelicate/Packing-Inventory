@@ -10,7 +10,8 @@ namespace Packing_Inventory.InventoryItems
     {
         public Water()
         {
-            Name      = "Some Water";
+            Name = "water";
+            UpperName = "Some Water";
             LowerName = "some water";
             Weight    = 2f;
             Volume    = 0.5f;

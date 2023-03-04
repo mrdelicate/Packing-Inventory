@@ -10,11 +10,12 @@ namespace Packing_Inventory.Packs
     {
         public AdventurerPack()
         {
-            Name      = "An Adventure's Pack";
+            UpperName      = "An Adventure's Pack";
             LowerName = "an adventurer's pack";
             MaxItems  = 4;
             MaxVolume = 10;
             MaxWeight = 8;
+            Items = new();
         }
     }
 }

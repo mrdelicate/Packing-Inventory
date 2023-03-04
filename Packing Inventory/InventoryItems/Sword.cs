@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Packing_Inventory.InventoryItems
 {
-    internal class Sword : InventoryItem
+    public class Sword : InventoryItem
     {
         public Sword()
         {
-            Name      = "A Sword";
+            Name = "sword";
+            UpperName = "A Sword";
             LowerName = "a sword";
             Weight    = 5f;
             Volume    = 3f;

@@ -10,11 +10,12 @@ namespace Packing_Inventory.Packs
     {
         public HeroPack()
         {
-            Name      = "A Hero's Pack";
+            UpperName      = "A Hero's Pack";
             LowerName = "a hero's pack";
             MaxItems  = 6;
-            MaxVolume = 14;
+            MaxVolume = 9;
             MaxWeight = 11;
+            Items     = new();
         }
     }
 }

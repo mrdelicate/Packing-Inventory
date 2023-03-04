@@ -10,11 +10,12 @@ namespace Packing_Inventory.Packs
     {
         public BeginnerPack()
         {
-            Name      = "A Beginner's Pack";
+            UpperName      = "A Beginner's Pack";
             LowerName = "a beginner's pack";
             MaxItems  = 3;
             MaxVolume = 8;
             MaxWeight = 6;
+            Items     = new();
         }
     }
 }

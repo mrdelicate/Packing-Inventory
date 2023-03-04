@@ -10,7 +10,8 @@ namespace Packing_Inventory.InventoryItems
     {
         public Food()
         {
-            Name      = "Some Food";
+            Name = "food";
+            UpperName = "Some Food";
             LowerName = "some food";
             Weight    = 1f;
             Volume    = 0.5f;

@@ -8,9 +8,11 @@ namespace Packing_Inventory
 {
     public class InventoryItem
     {
-        public string Name { get; set;  }
+        public string Name { get; set; }
+        public string UpperName { get; set;  }
         public string LowerName { get; set; }
         public float Weight { get; set;  }
         public float Volume { get; set; }
+
     }
 }

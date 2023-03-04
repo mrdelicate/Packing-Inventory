@@ -10,7 +10,8 @@ namespace Packing_Inventory.InventoryItems
     {
         public Arrow()
         {
-            Name      = "An Arrow";
+            Name = "arrow";
+            UpperName = "An Arrow";
             LowerName = "an arrow";
             Weight    = 0.1f;
             Volume    = 0.05f;
